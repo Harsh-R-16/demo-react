@@ -1,0 +1,22 @@
+useEffect is used to perform side effects in react projects.
+
+outside components we can perform the side effects with useEffect hook.
+
+by default useEffect runs after every rerender.
+
+we can add dependency and cleanup function.
+we can not place any react hook in conditionals statements
+we can write conditionals statements in side hooks.
+
+dependency list we can add so we decide whether useEffect should run or not.
+
+short circuit evaluation of useEffect
+
+a || b
+a && b  this are short circuit evaluation.
+
+we can not use for loop or while or if else in jsx code
+because it does not return any thing that's why 
+
+short circuit evaluation or ternary evaluation return something that we use in jsx code.
+
