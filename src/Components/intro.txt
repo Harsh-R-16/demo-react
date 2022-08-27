@@ -15,6 +15,12 @@ short circuit evaluation of useEffect
 a || b
 a && b  this are short circuit evaluation.
 
+condition ? {if true} : {if false} 
+
+how make ternary operators using only short circuit evaluations
+
+a && b || c
+
 we can not use for loop or while or if else in jsx code
 because it does not return any thing that's why 
 
